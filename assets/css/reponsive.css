@@ -1,0 +1,136 @@
+@media (min-width: 932px) and (max-width: 1232px) {
+    .header-logo svg{
+        display: none;
+    }
+    .logo-compact{
+        display: block;
+    }
+}
+/* >= Tablet */
+@media (min-width: 535px) {
+
+}
+
+/* PC medium resolution > */
+@media (min-width: 1113px) {
+   
+}
+/* Mobile */
+@media (max-width: 534px) {
+    .header-logo svg{
+        display: none;
+    }
+    .logo-compact{
+        display: block;
+    }
+    .menu-filter{
+        display: none;
+    }
+    .menu-list-places{
+        /* display: flex; */
+        width:100%;
+        /* display: block; */
+    }
+    .icon-left, .icon-right{
+        display: none;
+    }
+    .fixed{
+        display: none;
+    }
+    .push-top{
+        margin-top: 0;
+    }
+    .fixed1{
+        display: block;
+    }
+    .network-footer{
+        /* flex-direction: column; */
+        margin-bottom: 10px;
+    }
+    .network-footer i{
+        display: none;
+    }
+    .network-footer svg{
+        display: none;
+    }
+    .contact-footer{
+        padding: 10px 0;
+        flex-direction: column-reverse;
+        align-items: flex-start;
+        justify-content: center;
+    }
+    .content-footer p , .content-footer i{
+        display: none;
+    }
+    .content-footer a{
+        font-size: 0.8rem;
+        margin-left: 0;
+    }
+    .menu-tablet-mobile{
+        display: flex;
+    }
+}
+/* Tablet - PC low resolution */
+@media (min-width: 535px) and (max-width: 1023px) {
+    .header-logo svg{
+        display: none;
+    }
+    .logo-compact{
+        display: block;
+    }
+    .menu-filter{
+        display: none;
+    }
+    .menu-list-places{
+        /* display: flex; */
+        width:100%;
+        /* display: block; */
+    }
+    .icon-right{
+        display: none;
+    }
+    .icon-left{
+        display: none;
+    }
+    .fixed{
+        display: none;
+    }
+    .push-top{
+        margin-top: 0;
+    }
+    .fixed1{
+        display: block;
+    }
+    .network-footer{
+        /* flex-direction: column; */
+        margin-bottom: 10px;
+    }
+    .network-footer i{
+        display: none;
+    }
+    .network-footer svg{
+        display: none;
+    }
+    .contact-footer{
+        padding: 10px 0;
+        flex-direction: column-reverse;
+        align-items: flex-start;
+        justify-content: center;
+    }
+    .menu-tablet-mobile{
+        display: flex;
+    }
+}
+@media (min-width: 1856px) {
+    
+}
+/* Tablet - PC low resolution */
+@media (min-width: 1636px) and (max-width: 1855px) {
+    
+}
+@media (min-width: 1440px) and (max-width: 1635px) {
+   
+}
+@media (min-width: 1233px) and (max-width: 1439px) {
+   
+}
